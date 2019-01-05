@@ -9,7 +9,7 @@ import AlbumList from './src/components/AlbumList';
 export default class App extends React.Component {
   render() {
     return (
-      <View>
+      <View style={{felx: 1}}>
         <Header headerText={'SimonAlbums'} />
         <AlbumList />
       </View>
