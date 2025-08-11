@@ -17,6 +17,8 @@ export default class App extends React.Component {
   }
 }
 
+//test this...
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
