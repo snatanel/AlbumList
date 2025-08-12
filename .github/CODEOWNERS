@@ -1,0 +1,18 @@
+# CODEOWNERS
+# This file assigns reviewers based on file or directory changes.
+# Syntax:  <pattern>  <owner>
+
+# Default owner for everything in the repo
+*       @your-org/your-team
+
+# Specific directories
+/docs/  @your-username
+/src/   @your-org/backend-team
+/frontend/  @your-org/frontend-team
+
+# Specific file types
+*.md    @your-username
+*.js    @your-org/javascript-team
+
+# Specific files
+package.json @your-username
